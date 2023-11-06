@@ -59,7 +59,9 @@ with st.container():
                      1. ATM APP 
                      2. POWER BI DASHBOARDS
                      3. NLP PROJECTS
-                     4. """)
+                     4. POTATO DISEASE CLASSIFIER
+                     5. MALARIA DIAGNOSIS
+                     6. HUMAN EMOTIONS DETECTOR""")
 
 with st.container():
     st.write("--------------------------------------------------------------------------------------------------")           

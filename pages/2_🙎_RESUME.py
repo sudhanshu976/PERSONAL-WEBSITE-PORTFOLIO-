@@ -32,6 +32,9 @@ PROJECTS = {
     "🏆 ATM APP USING PYTHON AND SQL" : " ",
     "🏆 POWER BI INTERACTIVE DASHBOARDS" : " ",
     "🏆 NLP PROJECTS USING ML AND DL" : " ",
+    "🏆 POTATO DISEASE CLASSIFIER USING DL ( CNN )" : " ",
+    "🏆 MALARIA DIAGNOSIS USING DL ( CNN )" : " ",
+    "🏆 HUMAN EMOTIONS DETECTOR USING DL ( Fine-tuning Vision Transformers )" : " "
 }
 
 
