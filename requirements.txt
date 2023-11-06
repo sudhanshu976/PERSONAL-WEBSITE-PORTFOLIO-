@@ -1,0 +1,8 @@
+pandas
+streamlit
+streamlit-lottie
+numpy
+tensorflow
+Pillow
+opencv-python-headless
+transformers
