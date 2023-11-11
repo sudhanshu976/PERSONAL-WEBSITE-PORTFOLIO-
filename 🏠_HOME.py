@@ -61,7 +61,9 @@ with st.container():
                      3. NLP PROJECTS
                      4. POTATO DISEASE CLASSIFIER
                      5. MALARIA DIAGNOSIS
-                     6. HUMAN EMOTIONS DETECTOR""")
+                     6. HUMAN EMOTIONS DETECTOR
+                     7. CAR COUNTER APP
+                     8. FACE ATTENDANCE SYSTEM""")
 
 with st.container():
     st.write("--------------------------------------------------------------------------------------------------")           
