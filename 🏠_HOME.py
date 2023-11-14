@@ -29,6 +29,25 @@ with st.container():
     st.write("I am passionate about finding ways to solve real life problems through my skills of ML , DL and Computer Vision")
     st.write("[Know more about me  >> ](www.linkedin.com/in/sudhanshu-gusain976))")
 
+with st.container():
+    st.write("--------------------")
+    col1, col2, col3, col4, col5, col6, col7, col8 = st.columns(8)
+    with col1:
+        st.image("logos/python.jpeg", width=50 , use_column_width=True)
+    with col2:
+        st.image("logos/sql.jpeg", width=50 , use_column_width=True)
+    with col3:
+        st.image("logos/pb.jpeg", width=50, use_column_width=True)
+    with col4:
+        st.image("logos/scikit.jpeg", width=50, use_column_width=True)
+    with col5:
+        st.image("logos/st.jpeg", width=50, use_column_width=True)
+    with col6:
+        st.image("logos/tf.jpeg", width=50, use_column_width=True)
+    with col7:
+        st.image("logos/torch.jpeg", width=50, use_column_width=True)
+    with col8:
+        st.image("logos/opencv.jpeg", width=50, use_column_width=True)
 # --------------------WHAT I DO --------------------------
 with st.container():
     st.write("-----")
@@ -63,7 +82,8 @@ with st.container():
                      5. MALARIA DIAGNOSIS
                      6. HUMAN EMOTIONS DETECTOR
                      7. CAR COUNTER APP
-                     8. FACE ATTENDANCE SYSTEM""")
+                     8. FACE ATTENDANCE SYSTEM
+                     9. REAL OR FAKE PERSON DETECTOR""")
 
 with st.container():
     st.write("--------------------------------------------------------------------------------------------------")           
