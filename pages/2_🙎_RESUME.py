@@ -36,7 +36,8 @@ PROJECTS = {
     "🏆 MALARIA DIAGNOSIS USING DL ( CNN )" : " ",
     "🏆 HUMAN EMOTIONS DETECTOR USING DL ( Fine-tuning Vision Transformers )" : " ",
     "🏆 CAR COUNTER ( OPENCV , SORT and PYTHON )" : " ",
-    "🏆 FACE ATTENDANCE SYTEM ( OPENCV , FACE_RECOGNITION LIBRARY and Python )" : " "
+    "🏆 FACE ATTENDANCE SYTEM ( OPENCV , FACE_RECOGNITION LIBRARY and Python )" : " ",
+    "🏆 REAL OR FAKE PERSON DETECTOR ( OPENCV , YOLO and Pytorch )" : " "
 }
 
 
