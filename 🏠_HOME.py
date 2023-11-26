@@ -36,14 +36,17 @@ with st.container():
         st.write("######  PYTHON")
         st.write("######  SCIKIT-LEARN")
         st.write("######  OpenCV PYTHON")
+        st.write("######  OBJECT DETECTION ( YOLO & Model Zoo)")
     with col2:
         st.write("######  SQL")
         st.write("######  TENSORFLOW")
         st.write("######  STREAMLIT")
+        st.write("######  IMAGE SEGMENTATION")
     with col3:
         st.write("######  POWER-BI")
         st.write("######  PYTORCH")
         st.write("######  CHATGPT")
+        st.write("######  POSTURE DETECTION")
 
     
 
