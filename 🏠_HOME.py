@@ -3,99 +3,90 @@ import requests
 from PIL import Image
 from streamlit_lottie import st_lottie
 
-
 st.set_page_config(
-    page_title="PERSONAL WEBSITE"
+    page_title="PERSONAL WEBSITE",
+    page_icon=":computer:",
+    layout="wide"
 )
 
 #---------------------LOTTIE  ANIMATION ------------------------
 def load_lottie(url):
     r = requests.get(url)
-    if r.status_code!=200:
+    if r.status_code != 200:
         return None
     return r.json()
 
 lottie_coding = load_lottie("https://lottie.host/e0a6d7e0-6b3d-428f-addc-aa44a746d653/MImt8ecbMs.json")
 
-
 st.sidebar.success("Select a page above")
-
-
 
 # -------------- HEADER ----------------------------
 with st.container():
-    st.subheader("Hi , I am Sudhanshu :wave:")
+    st.subheader("Hi, I am Sudhanshu :wave:")
     st.title("A Data Scientist and Computer Vision Engineer from INDIA")
-    st.write("I am passionate about finding ways to solve real life problems through my skills of ML , DL and Computer Vision")
-    st.write("[Know more about me  >> ](www.linkedin.com/in/sudhanshu-gusain976))")
-st.subheader("**MY EXPERTISE**")
-with st.container():
-    col1 , col2 , col3  = st.columns(3)
+    st.write("I am passionate about finding ways to solve real-life problems through my skills in ML, DL, and Computer Vision.")
+    st.write("[Know more about me >>](https://www.linkedin.com/in/sudhanshu-gusain976))")
+
+    st.write("[My Blog Website >>](https://sudhanshu976.github.io/))")
+    st.write("[My NLP Website >>](https://nlpappbysudhanshu.streamlit.app/))")
+    st.write("[My Computer Vision Website >>](https://cvappbysudhanshu.streamlit.app/))")
+
+    st.write("All above mentioned websites are already mentioned in the Project section of this Portfolio Website")
+
+# -------------- MY EXPERTISE ----------------------------
+
+# Function to create a skill card
+def create_skill_card(title, description):
+    card = f"""
+    <div style="
+        background-color: #343a40; /* Dark background color */
+        color: #ffffff; /* Light text color */
+        border: 1px solid #55595c; /* Border color */
+        border-radius: 8px;
+        padding: 15px;
+        margin: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        overflow: hidden; /* Add overflow to prevent shadow clipping */
+        text-align: center; /* Center text */
+    ">
+        <h3 style="margin-bottom: 10px;">{title}</h3>
+        <p>{description}</p>
+    </div>
+    """
+    return card
+
+# Main content
+st.title("My Skills")
+
+# List of skills
+skills = [
+    {"title": "Python ans SQL", "description": "Proficient in Python programming language and intermediate in SQL"},
+    {"title": "Machine Learning", "description": "Experience in building ML models and Deeep Lnowledge of ML algorithms"},
+    {"title": "Data Visualization", "description": "Creating interactive visualizations with tools like Power-BI, Matplotlib and Seaborn."},
+    {"title": "ML OPS", "description": "In love with ML-OPS"},
+    {"title": "Deep Learning", "description": "Working with neural networks and frameworks like TensorFlow."},
+    {"title": "Natural Language Processing", "description": "Recommender System , LLM , Transfer Learning , Generative AI"},
+    {"title": "Computer Vision", "description": "Object Detection , Posture Detection , GAN , Image Classification"},
+    {"title": "CHATGPT", "description": "Good at utilizing CHATGPT and Other AI tools .  Even made a website with zero knowledge of HTML,CSS and JS"},
+]
+
+# Display skill cards in two columns
+col1, col2 = st.columns(2)
+for i, skill in enumerate(skills):
+    if i % 2 == 0:
+        with col1:
+            st.markdown(create_skill_card(skill["title"], skill["description"]), unsafe_allow_html=True)
+    else:
+        with col2:
+            st.markdown(create_skill_card(skill["title"], skill["description"]), unsafe_allow_html=True)
     
-    with col1:
-        st.write("######  PYTHON")
-        st.write("######  SCIKIT-LEARN")
-        st.write("######  OpenCV PYTHON")
-        st.write("######  OBJECT DETECTION ( YOLO & Model Zoo)")
-    with col2:
-        st.write("######  SQL")
-        st.write("######  TENSORFLOW")
-        st.write("######  STREAMLIT")
-        st.write("######  IMAGE SEGMENTATION")
-    with col3:
-        st.write("######  POWER-BI")
-        st.write("######  PYTORCH")
-        st.write("######  CHATGPT")
-        st.write("######  POSTURE DETECTION")
+
+# ----------------- LOTTIE ANIMATION -----------------------
+with st.container():
+    st.write("--------------------------------------------------------------------------------------------------")
+
+with st.container():
+    st_lottie(lottie_coding)
+
 
     
-
-
-# --------------------WHAT I DO --------------------------
-with st.container():
-    st.write("-----")
-    left_column ,center, right_column = st.columns(3)
-    with left_column:
-        st.header("MY SKILLS")
-        st.write("##")
-        st.write("""  
-                📊 **Data Science Explorer**: Over the past year, I've dedicated myself to understanding and harnessing the power of data. I've translated my knowledge into tangible projects, gaining expertise in a wide range of skills, including:
-
-- **SQL and Python**
-- **POWER BI DASHBOARDS**
-- **Machine Learning**
-- **Deep Learning**
-- **NLP (Natural Language Processing)**
-- **CV (Computer Vision)**
-- **Flask / Streamlit**
-- **Web Services**
-
-                    """)
-        
-        with center:
-            st.write("")
-        with right_column:
-            st.header("MY PROJECTS")
-            st.write("##")
-            st.write("""
-                     1. ATM APP 
-                     2. POWER BI DASHBOARDS
-                     3. NLP PROJECTS
-                     4. POTATO DISEASE CLASSIFIER
-                     5. MALARIA DIAGNOSIS
-                     6. HUMAN EMOTIONS DETECTOR
-                     7. CAR COUNTER APP
-                     8. FACE ATTENDANCE SYSTEM
-                     9. REAL OR FAKE PERSON DETECTOR""")
-
-with st.container():
-    st.write("--------------------------------------------------------------------------------------------------")           
-with st.container():
-    st_lottie(lottie_coding)          
-            
-
-        
-
-
-        
-
