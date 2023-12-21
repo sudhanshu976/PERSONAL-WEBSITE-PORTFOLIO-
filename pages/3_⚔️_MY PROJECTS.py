@@ -13,6 +13,7 @@ projects = [
     {"name": "BLOG WEBSITE", "description": "Website purely made with CHATGPT ", "link": "https://sudhanshu976.github.io/"},
     {"name": "POWER BI DASHBOARDS", "description": "Data Cleaning / Power BI Dashboards.", "link": "POWER-BI_PROJECTS"},
     {"name": "ML-APP", "description": " ML-MODEL FLASK APP ", "link": "FOOTBALL_PREDICTION_ML_FLASK_APP"},
+    {"name": "MLOPS PROJECT 1", "description": "MLOPS / Python / CI-CD Pipeline", "link": "MLOPS_PROJECT"},
     {"name": "NLP PROJECTS", "description": "4 NLP projects", "link": "NLP_PROJECTS"},
     {"name": "POTATO DISEASE CLASSIFIER", "description":"CNN APP for Image Classification", "link": "POTATO_DISEASE_CLASSIFIER"},
     {"name": "MALARIA DIAGNOSIS", "description": "Image Classification", "link": "MALARIA_DIAGNOSIS"},
