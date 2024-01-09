@@ -10,6 +10,15 @@ st.title("MUSHROOM CLASSIFIER MLOPS PROJECT")
 video_path = "videos/mushroom.mp4"
 st.video(video_path)
 
+
+col1 , col2 = st.columns(2)
+with col1:
+    st.image("images/mlops2github.png", width=300)
+with col2:
+    st.image("images/mlops2github2.png", width=300)
+
+st.image("images/mlops_deploy_aws.png")
+
 if st.button("KNOW MORE"):
     st.write("""
     Great job on building the components of your mushroom classifier app! Now, you can integrate these components into a Flask app to make it interactive. Here are the steps to create an interactive Flask app for your mushroom classifier:
