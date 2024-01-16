@@ -24,6 +24,8 @@ projects = [
     {"name": "FACE ATTENDANCE SYSTEM", "description": "OpenCV / Face-recognition library", "link": "FACE_ATTENDANCE_SYSTEM_(_CV-2_)"},
     {"name": "REAL OR FAKE PERSON DETECTOR", "description": "OpenCV / Custom Model Object Detection / Model ZOO", "link": "REAL_OR_FAKE_PERSON_DETECTOR_(CV-3)"},
     {"name": "INVOICE EXTRACTOR USING GEMINI AI", "description": "  Streamlit | Langchain | Geminni-Pro-Vision ", "link": "INVOICE_EXTRACTOR_GENAI"},
+    {"name": "MULTIPLE PDF QUERY USING GEMINI AI", "description": "  Streamlit | CASSANDRA |Langchain | Geminni-Pro-Vision ", "link": "CHAT_WITH_MULTIPLE_PDF_GEMINI"},
+    {"name": "CAR ANALYZER USING GEMINI AI", "description": "  Streamlit | Geminni-Pro-Vision ", "link": "CAR_ANALYZER_USING_GEMINI"}
 ]
 
 # Display project list with numbers and links
