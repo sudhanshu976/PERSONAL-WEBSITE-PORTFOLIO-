@@ -26,8 +26,10 @@ projects = [
     {"name": "INVOICE EXTRACTOR USING GEMINI AI", "description": "  Streamlit | Langchain | Geminni-Pro-Vision ", "link": "INVOICE_EXTRACTOR_GENAI"},
     {"name": "MULTIPLE PDF QUERY USING GEMINI AI", "description": "  Streamlit | CASSANDRA |Langchain | Geminni-Pro-Vision ", "link": "CHAT_WITH_MULTIPLE_PDF_GEMINI"},
     {"name": "CAR ANALYZER USING GEMINI AI", "description": "  Streamlit | Geminni-Pro-Vision ", "link": "CAR_ANALYZER_USING_GEMINI"},
-    {"name": "POTATO DISEASE DETECTOR USING CNN AND MLOPS", "description": " MLOPS | CNN | Tensorflow | MLFLOW | Flask ", "link": "POTATO_DISEASE_DETECTOR_MLOPS"}
-
+    {"name": "POTATO DISEASE DETECTOR USING CNN AND MLOPS", "description": " MLOPS | CNN | Tensorflow | MLFLOW | Flask ", "link": "POTATO_DISEASE_DETECTOR_MLOPS"},
+    {"name": "BLOG GENERATOR USING LLAMA", "description": "Streamlit | Langchain | LLAMA-2", "link": "BLOG_GENERATOR_USING_LLAMA"},
+    {"name": "FAKE NEWS CLASSIFIER USING LSTM", "description": " Flask| Tensorflow | LSTM  ", "link": "FAKE_NEWS_CLASSIFIER_USING_LSTM"},
+    {"name": "MOVIE RECOMMENDER SYSTEM", "description": " Content Based Recommendation | Cosine Similarity | Flask | Streamlit ", "link": "MOVIE_RECOMMENDER_SYSTEM"}
 ]
 
 # Display project list with numbers and links
